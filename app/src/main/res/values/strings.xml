@@ -1,0 +1,29 @@
+<resources>
+    <string name="app_name">Midas</string>
+    <string name="home_title">Home</string>
+    <string name="user_title">User</string>
+
+    <string name="user_not_login_tips">You are not logged in yet, please login first.</string>
+    <string name="launch_text">Midas Recharge Center</string>
+    <string name="not_login_title">Login</string>
+    <string name="not_login_subTitle">please login first</string>
+
+    <!--facebook login-->
+    <!--<string name="facebook_app_id">655517994918348</string>-->
+    <string name="facebook_app_id">855538431298982</string>
+    <string name="fb_login_protocol_scheme">fb2244512405867672</string>
+    <string name="animation_string">animation_string</string>
+
+    <string name="logout_tips">Are you leaving your current account?</string>
+    <string name="logout_cancel">cancel</string>
+    <string name="logout_sure">sure</string>
+
+    <string name="ads_title">Midas Recharge Center</string>
+    <string name="webView_error">request error,you can refresh with pull down.</string>
+    <string name="activity_title_transaction">Transaction</string>
+
+    <string name="permission_reject">You have rejected phone storage permission,the app can not run normally without them,you can allow them again in setting page.</string>
+    <string name="default_failure">System error,you can try it again.</string>
+
+    <string name="login_tips">Please login first</string>
+</resources>

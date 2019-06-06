@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android"
+    android:opacity="opaque">
+    <!--&lt;!&ndash;假装这里是个toolbar&ndash;&gt;-->
+    <!--<item-->
+        <!--android:drawable="@color/colorPrimaryLight" />-->
+    <!--&lt;!&ndash;状态栏25+toolbar56=距离top81&ndash;&gt;-->
+    <!--<item-->
+        <!--android:drawable="@android:color/white"-->
+        <!--android:bottom="@dimen/bottom_splash" />-->
+
+
+    <!--白色背景-->
+    <item android:drawable="@android:color/white"/>
+
+    <item>
+        <bitmap
+            android:gravity="center"
+            android:src="@drawable/splash_logo"/>
+    </item>
+</layer-list>

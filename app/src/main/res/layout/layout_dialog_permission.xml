@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="15dp"
+    android:orientation="vertical"
+    android:background="@drawable/dialog_background"
+    >
+
+    <ImageView
+        android:layout_width="@dimen/permission_image_warning"
+        android:layout_height="@dimen/permission_image_warning"
+        android:layout_gravity="center_horizontal"
+        android:scaleType="centerCrop"
+        android:src="@mipmap/icons8_brake_warning"
+        />
+
+    <TextView
+        android:id="@+id/dp_tips"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:gravity="center"
+        android:textSize="14sp"
+        android:textColor="@android:color/black"
+        android:text="@string/permission_reject"
+        />
+
+    <TextView
+        android:id="@+id/dp_sure"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"
+        android:layout_marginTop="20dp"
+        android:paddingTop="8dp"
+        android:paddingBottom="8dp"
+        android:gravity="center"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        android:textColor="@android:color/white"
+        android:text="@string/logout_sure"
+        android:background="@drawable/selector_comm_background"
+        />
+</LinearLayout>

@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!--<color name="colorPrimary">#3F51B5</color>-->
+    <!--<color name="colorPrimaryDark">#303F9F</color>-->
+    <!--<color name="colorAccent">#FF4081</color>-->
+    <color name="colorPrimaryDark">#101f27</color>
+    <color name="colorPrimary">#37464f</color>
+    <color name="colorPrimaryLight">#62717b</color>
+    <color name="colorAccent">#62717b</color>
+
+
+    <color name="bottomBar_selected">#fff</color>
+    <color name="bottomBar_unselected">#aaaaaa</color>
+    <color name="bg_btn">#dadada</color>
+    <color name="third_login_color">#aaaaaa</color>
+
+    <color name="user_logo_background">#3c13dd</color>
+
+    <color name="grey_1">#F5F5F5</color>
+    <color name="grey_2">#DCDCDC</color>
+    <color name="grey_3">#D3D3D3</color>
+    <color name="grey_4">#C0C0C0</color>
+    <color name="grey_5">#A9A9A9</color>
+    <color name="grey_6">#808080</color>
+    <color name="grey_7">#696969</color>
+
+    <color name="orange">#FF4500</color>
+    <color name="transparent">#0000</color>
+</resources>

@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView
+        android:id="@+id/ult_facebook"
+        android:layout_width="@dimen/third_login_logo"
+        android:layout_height="@dimen/third_login_logo"
+        android:layout_alignParentLeft="true"
+        android:scaleType="centerCrop"
+        android:src="@mipmap/icons8_facebook"
+        />
+    <ImageView
+        android:id="@+id/ult_twitter"
+        android:layout_width="@dimen/third_login_logo"
+        android:layout_height="@dimen/third_login_logo"
+        android:layout_toRightOf="@id/ult_facebook"
+        android:layout_marginLeft="15dp"
+        android:scaleType="centerCrop"
+        android:src="@mipmap/icons8_twitter"
+        />
+    <ImageView
+        android:id="@+id/ult_google"
+        android:layout_width="@dimen/third_login_logo"
+        android:layout_height="@dimen/third_login_logo"
+        android:layout_toRightOf="@id/ult_twitter"
+        android:layout_marginLeft="15dp"
+        android:scaleType="centerCrop"
+        android:src="@mipmap/icons8_google"
+        />
+</merge>

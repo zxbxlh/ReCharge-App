@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="bottom_bar_height">52dp</dimen>
+    <dimen name="tab_layout_height">45dp</dimen>
+
+    <dimen name="webView_top_height">48dp</dimen>
+    <dimen name="webView_top_text_size">16sp</dimen>
+    <dimen name="user_appbar_height">45dp</dimen>
+
+    <dimen name="login_left_padding">5dp</dimen>
+    <dimen name="user_not_login_tips">30sp</dimen>
+    <dimen name="profile_picture_border">3dp</dimen>
+    <dimen name="login_top_padding">50dp</dimen>
+    <dimen name="login_bottom_padding">30dp</dimen>
+
+    <dimen name="user_rv_left_padding">20dp</dimen>
+    <dimen name="user_rv_right_padding">20dp</dimen>
+
+    <dimen name="user_cardView_height">80dp</dimen>
+    <dimen name="user_cardView_left_padding">20dp</dimen>
+
+    <dimen name="user_custom_icon">30dp</dimen>
+    <dimen name="third_login_logo">32dp</dimen>
+    <dimen name="cardView_size">100dp</dimen>
+
+    <dimen name="bottom_splash">100dp</dimen>
+    <dimen name="toolbar_height">60dp</dimen>
+
+    <dimen name="webView_error_image">200dp</dimen>
+    <dimen name="permission_image_warning">64dp</dimen>
+</resources>

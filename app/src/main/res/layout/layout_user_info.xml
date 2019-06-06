@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginBottom="10dp"
+    >
+
+    <com.facebook.drawee.view.SimpleDraweeView
+        android:id="@+id/ui_logo"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_marginTop="50dp"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:actualImageScaleType="centerCrop"
+        app:placeholderImage="@mipmap/icons8_person_unlogin"
+        app:placeholderImageScaleType="centerInside"
+        app:roundAsCircle="true"
+        app:backgroundImage="@color/colorPrimaryLight"
+        />
+
+    <TextView
+        android:id="@+id/ui_title"
+        app:layout_constraintTop_toBottomOf="@id/ui_logo"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:gravity="center"
+        style="@style/TextTitle"
+        android:text="@string/not_login_title"
+        />
+    <TextView
+        android:id="@+id/ui_subTitle"
+        app:layout_constraintTop_toBottomOf="@id/ui_title"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:gravity="center"
+        style="@style/TextSubTitle"
+        android:text="@string/not_login_subTitle"
+        />
+</android.support.constraint.ConstraintLayout>

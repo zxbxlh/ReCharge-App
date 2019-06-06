@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingLeft="20dp"
+    android:paddingRight="20dp"
+    android:orientation="vertical"
+    android:background="@color/colorPrimaryLight">
+
+    <ImageView
+        android:id="@+id/fr_close"
+        android:layout_width="48dp"
+        android:layout_height="48dp"
+        android:layout_marginBottom="50dp"
+        android:paddingTop="8dp"
+        android:paddingBottom="8dp"
+        android:paddingRight="16dp"
+        android:scaleType="centerCrop"
+        android:src="@mipmap/icons8_left_back"
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="30dp"
+        android:textColor="@color/grey_1"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        android:text="Create your account"
+        />
+
+    <EditText
+        android:id="@+id/fr_email"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingTop="10dp"
+        android:inputType="textEmailAddress"
+        android:imeOptions="actionDone"
+        android:hint="Email"
+        android:textColorHint="@color/grey_4"
+        android:textColor="@android:color/white"
+        android:textSize="16sp"
+        android:singleLine="true"
+        android:textCursorDrawable="@null"
+        />
+
+    <EditText
+        android:id="@+id/fr_password"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:paddingTop="10dp"
+        android:imeOptions="actionDone"
+        android:inputType="textPassword"
+        android:hint="Password"
+        android:textColorHint="@color/grey_4"
+        android:textColor="@android:color/white"
+        android:textSize="16sp"
+        android:singleLine="true"
+        android:textCursorDrawable="@null"
+        />
+
+    <EditText
+        android:id="@+id/fr_password_again"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:paddingTop="10dp"
+        android:inputType="textPassword"
+        android:imeOptions="actionDone"
+        android:hint="Sure password "
+        android:textColorHint="@color/grey_4"
+        android:textColor="@android:color/white"
+        android:textSize="16sp"
+        android:singleLine="true"
+        android:textCursorDrawable="@null"
+        />
+
+    <EditText
+        android:id="@+id/fr_first_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:paddingTop="10dp"
+        android:hint="First Name"
+        android:textColorHint="@color/grey_4"
+        android:textColor="@android:color/white"
+        android:textSize="16sp"
+        android:singleLine="true"
+        android:textCursorDrawable="@null"
+        />
+
+    <EditText
+        android:id="@+id/fr_last_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:paddingTop="10dp"
+        android:hint="Last Name"
+        android:textColorHint="@color/grey_4"
+        android:textColor="@android:color/white"
+        android:textSize="16sp"
+        android:singleLine="true"
+        android:textCursorDrawable="@null"
+        android:drawableTintMode="src_in"
+        />
+
+    <EditText
+        android:id="@+id/fr_birthdaty"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:paddingTop="10dp"
+        android:hint="Birthday"
+        android:textColorHint="@color/grey_4"
+        android:textColor="@android:color/white"
+        android:textSize="16sp"
+        android:singleLine="true"
+        android:textCursorDrawable="@null"
+        android:drawableTintMode="src_in"
+        />
+
+    <Button
+        android:id="@+id/fr_register"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:paddingTop="5dp"
+        android:paddingBottom="5dp"
+        android:textColor="@color/grey_1"
+        android:text="register"
+        android:background="@drawable/selector_login_background"
+        />
+</LinearLayout>

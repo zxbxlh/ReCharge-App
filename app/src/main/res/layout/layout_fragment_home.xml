@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tool="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    >
+
+    <!--<android.support.design.widget.AppBarLayout-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:fitsSystemWindows="true"-->
+        <!--app:layout_scrollFlags="scroll|enterAlways">-->
+
+        <!--<android.support.v7.widget.Toolbar-->
+            <!--android:id="@+id/fh_toolbar"-->
+            <!--android:layout_width="match_parent"-->
+            <!--android:layout_height="?attr/actionBarSize"-->
+            <!--android:background="?attr/colorPrimary"-->
+            <!--android:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar"-->
+            <!--app:popupTheme="@style/AppTheme.NoActionBar.PopupOverlay"-->
+            <!--app:titleTextAppearance="@style/Toolbar_TextAppearance_White" />-->
+
+        <!--<android.support.design.widget.TabLayout-->
+            <!--android:id="@+id/fh_tab_layout"-->
+            <!--android:layout_width="match_parent"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--app:tabGravity="fill"-->
+            <!--app:tabIndicator="@null"-->
+            <!--app:tabMode="scrollable"-->
+            <!--app:tabSelectedTextColor="@android:color/white"-->
+            <!--app:tabTextAppearance="@style/tab_appearance"-->
+            <!--app:tabTextColor="@color/bottomBar_unselected" />-->
+
+    <!--</android.support.design.widget.AppBarLayout>-->
+
+    <android.support.v4.view.ViewPager
+        android:id="@+id/fh_viewPager"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+</LinearLayout>

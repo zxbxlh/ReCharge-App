@@ -1,0 +1,60 @@
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <!--WebView container-->
+    <FrameLayout
+        android:id="@+id/ww_container"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        >
+        <ProgressBar
+            android:id="@+id/ww_progress_bar"
+            style="?android:attr/progressBarStyleHorizontal"
+            android:layout_width="match_parent"
+            android:layout_height="3dp"
+            android:max="100"
+            android:progress="0"
+            android:progressDrawable="@drawable/lib_hybrid_progress_bar_states"
+            android:visibility="gone" />
+    </FrameLayout>
+
+    <ViewStub
+        android:id="@+id/ww_error"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout="@layout/layout_webview_error"
+        />
+
+
+    <!--&lt;!&ndash;WebView error&ndash;&gt;-->
+    <!--<com.facebook.drawee.view.SimpleDraweeView-->
+        <!--android:id="@+id/ww_error_image"-->
+        <!--android:layout_width="@dimen/webView_error_image"-->
+        <!--android:layout_height="@dimen/webView_error_image"-->
+        <!--app:layout_constraintStart_toStartOf="parent"-->
+        <!--app:layout_constraintEnd_toEndOf="parent"-->
+        <!--app:layout_constraintTop_toTopOf="parent"-->
+        <!--app:layout_constraintBottom_toBottomOf="parent"-->
+        <!--app:actualImageScaleType="centerCrop"-->
+        <!--android:visibility="invisible"-->
+        <!--/>-->
+
+    <!--<TextView-->
+        <!--android:id="@+id/ww_error_info"-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:layout_marginTop="5dp"-->
+        <!--android:gravity="center"-->
+        <!--android:textSize="12sp"-->
+        <!--android:textColor="@color/grey_5"-->
+        <!--android:text="@string/webView_error"-->
+        <!--android:typeface="serif"-->
+        <!--app:layout_constraintTop_toBottomOf="@id/ww_error_image"-->
+        <!--android:visibility="invisible"-->
+        <!--/>-->
+
+</android.support.constraint.ConstraintLayout>

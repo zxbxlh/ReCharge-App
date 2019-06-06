@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:paddingLeft="20dp"
+    android:paddingRight="20dp"
+    android:orientation="vertical"
+    android:background="@color/colorPrimaryLight">
+
+    <com.facebook.drawee.view.SimpleDraweeView
+        android:id="@+id/fl_logo"
+        android:layout_width="160dp"
+        android:layout_height="160dp"
+        android:layout_marginTop="50dp"
+        android:layout_marginBottom="10dp"
+        android:layout_gravity="center_horizontal"
+        app:actualImageScaleType="centerCrop"
+        app:placeholderImage="@drawable/logo"
+        app:placeholderImageScaleType="centerInside"
+        app:roundAsCircle="true"
+        app:backgroundImage="@color/colorPrimary"
+        />
+
+    <EditText
+        android:id="@+id/fl_user"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingTop="10dp"
+        android:inputType="textEmailAddress"
+        android:hint="Username"
+        android:textColorHint="@color/grey_4"
+        android:textColor="@android:color/white"
+        android:textSize="16sp"
+        android:textCursorDrawable="@null"
+        />
+
+    <EditText
+        android:id="@+id/fl_password"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:paddingTop="10dp"
+        android:inputType="textPassword"
+        android:hint="Password"
+        android:textColorHint="@color/grey_4"
+        android:textColor="@android:color/white"
+        android:textSize="16sp"
+        android:textCursorDrawable="@null"
+        />
+    
+    <Button
+        android:id="@+id/fl_login"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:paddingTop="5dp"
+        android:paddingBottom="5dp"
+        android:textColor="@color/grey_1"
+        android:text="sign in"
+        android:background="@drawable/selector_login_background"
+        />
+
+    <TextView
+        android:id="@+id/fl_register"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:paddingTop="5dp"
+        android:paddingBottom="5dp"
+        android:gravity="center"
+        android:textColor="@color/grey_3"
+        android:text="No account yet? Create one"
+        android:background="@null"
+        />
+
+    <View
+        android:layout_width="200dp"
+        android:layout_height="1dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginBottom="5dp"
+        android:layout_gravity="center_horizontal"
+        android:background="@color/grey_3"
+        />
+
+    <TextView
+        android:id="@+id/fl_find_password"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingTop="5dp"
+        android:paddingBottom="5dp"
+        android:gravity="center"
+        android:textColor="@color/grey_3"
+        android:text="Forget password? Find here"
+        android:background="@null"
+        />
+</LinearLayout>

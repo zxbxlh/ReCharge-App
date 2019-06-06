@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "303759051831",
+    "firebase_url": "https://midasoversearecharge.firebaseio.com",
+    "project_id": "midasoversearecharge",
+    "storage_bucket": "midasoversearecharge.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:303759051831:android:ff2d539a0b5c0b7b",
+        "android_client_info": {
+          "package_name": "com.tencent.midas.oversea.recharge"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "303759051831-fc6fdhv6jfnbor3a7ji33cqqj4felt77.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.tencent.midas.oversea.recharge",
+            "certificate_hash": "8d65b9e0ee745c833c4678c5c4f8c682036aad7d"
+          }
+        },
+        {
+          "client_id": "303759051831-so14tcfqr5m8be3gme2p9l4m4h36o6rl.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB4obSP2cmngMza5OXN_KCCPddD_D-IM4k"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "303759051831-so14tcfqr5m8be3gme2p9l4m4h36o6rl.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
