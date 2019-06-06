@@ -25,23 +25,10 @@ android {
         }
     }
 
-    //配置keystore签名
-    signingConfigs {
-        release {
-            storeFile file("midas_oversea_recharge.jks")
-            storePassword "overseamidasrecharge401"
-            keyAlias "midas_oversea_recharge"
-            keyPassword "rechargemidasoversea402"
-        }
-    }
 
     buildTypes {
-        debug {
-            signingConfig signingConfigs.release
-        }
 
         release {
-            signingConfig signingConfigs.release
             minifyEnabled true
             shrinkResources true
             proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
