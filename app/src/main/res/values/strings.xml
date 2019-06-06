@@ -8,10 +8,6 @@
     <string name="not_login_title">Login</string>
     <string name="not_login_subTitle">please login first</string>
 
-    <!--facebook login-->
-    <!--<string name="facebook_app_id">655517994918348</string>-->
-    <string name="facebook_app_id">855538431298982</string>
-    <string name="fb_login_protocol_scheme">fb2244512405867672</string>
     <string name="animation_string">animation_string</string>
 
     <string name="logout_tips">Are you leaving your current account?</string>
