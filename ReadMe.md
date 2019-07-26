@@ -1,1 +1,1 @@
-充值Application Sample
+## An android sample
